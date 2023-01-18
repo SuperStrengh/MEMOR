@@ -1,0 +1,2 @@
+all:
+	g++ -Iinclude -Iinclude/SDL -Iinclude/stb -Iinclude/headers -Iinclude/freetype -Llib -o MEMOR res/icon/my.res src/*.cpp lib/glut32.lib -lglu32 -lopengl32 -lfreetype -lmingw32 -lSDL2main -lSDL2 -lSDL2_mixer

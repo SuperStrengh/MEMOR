@@ -1,0 +1,37 @@
+{
+    "version": "1.0",
+    "dialogues": [
+    {
+        "Name": "Penguin",
+
+        "Position": [0.0,0.0,20.0],
+
+        "ModelIndex": 3,
+
+        "NPCtext": ["The quick brown fox jumps over \nthe lazy dog.", "Or did it?"],
+
+
+        "DefaultSprite": "penguin.png",
+        "TalkAnimationSprite1": "penguin2.png",
+        "TalkAnimationSprite2": "penguin1.png",
+
+        "VoiceSound": "res/dev/talkSoundEffect2.wav"
+    },
+    {
+        "Name": "Laust",
+
+        "Position": [0.0,0.0,20.0],
+
+        "ModelIndex": 2,
+
+        "NPCtext": ["H\ne\nl\nl\no.", "There."],
+
+
+        "DefaultSprite": "Laustpenguin.png",
+        "TalkAnimationSprite1": "LaustTalkSprite1.png",
+        "TalkAnimationSprite2": "LaustTalkSprite2.png",
+
+        "VoiceSound": "res/dev/TalkSoundEffect.wav"
+    }
+    ]
+}
